@@ -1,0 +1,47 @@
+body{
+    background: linear-gradient(to right, black 40%,rgb(65, 65, 65));
+    color: wheat;
+    margin: 20px 80px 15px 80px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#restobud{
+    color: rgb(114, 255, 71);
+    font-family: sans-serif;
+    font-size: 30px;
+}
+#box{
+    margin-top: 40px;
+    height: 500px;
+    width: 500px;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+#box:hover{
+    background: linear-gradient(#000000 ,#62d5f1 ,#030f10);
+}
+#main{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+#parking{
+    font-size: 25px;
+}
+#hour{
+    font-size: 22px;
+}
+#input{
+    cursor: pointer;
+   
+}
+#calculate{
+    cursor: pointer;
+}
+#calculate:hover{
+    background-color: rgb(245, 252, 49);
+}
